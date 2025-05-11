@@ -1,5 +1,4 @@
 
-
 import { useNavigate, useSearchParams } from "react-router-dom";
 import "./Verify.css";
 import { useContext, useEffect } from "react";
@@ -44,5 +43,7 @@ const Verify = () => {
     </div>
   )
 }
+
+
 
 export default Verify

@@ -30,9 +30,8 @@ app.use("/api/cart",cartRouter);
 app.use("/api/order",orderRouter);
 
 
-app.get("/",(req,res)=>{
-    res.send("Hello this is Hritik Mishra");
-})
+
+
 
 app.listen(port,()=>{
 console.log(`app is running at port ${port}`)

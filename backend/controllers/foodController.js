@@ -3,7 +3,7 @@ import foodModel from "../models/foodModel.js";
 import fs from 'fs';
 
 
-// add food item
+// add food item admin
 
 const addFood = async (req,res)=>{
    
@@ -21,7 +21,7 @@ const addFood = async (req,res)=>{
 
     try {
         await food.save();
-        res.json({success:true,message:"Food Added"})
+        res.json({success:true,message:"Food Added"});
         
     } catch (error) {
         console.log(error)
