@@ -3,7 +3,7 @@ import foodModel from "../models/foodModel.js";
 import fs from 'fs';
 
 
-// add food item admin
+// add food item for admin panel
 
 const addFood = async (req,res)=>{
    
