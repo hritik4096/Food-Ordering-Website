@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 // eslint-disable-next-line react/prop-types
 const StoreContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:8080";
+  const url = "https://food-del-backend-5oao.onrender.com";
   const [token, setToken] = useState("");
 
   const [food_list, setFoodList] = useState([]);
