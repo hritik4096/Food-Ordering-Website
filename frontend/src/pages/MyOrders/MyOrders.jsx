@@ -5,7 +5,7 @@ import axios from "axios";
 import { assets } from "../../assets/assets";
 
 
-const MyOders = () => {
+const MyOrders = () => {
    
     const {url,token} = useContext(StoreContext);
     const [data,setData] = useState([]);
@@ -52,4 +52,4 @@ const MyOders = () => {
   )
 }
 
-export default MyOders
+export default MyOrders
