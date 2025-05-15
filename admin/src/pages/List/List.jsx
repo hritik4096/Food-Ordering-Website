@@ -5,7 +5,7 @@ import "./List.css"
 
 const List = () => {
 
- const url = "https://food-del-backend-5oao.onrender.com"
+ const url = "https://food-ordering-backend-65rj.onrender.com"
   const [list,setList] = useState([]);
 
   const fetchList = async()=>{
