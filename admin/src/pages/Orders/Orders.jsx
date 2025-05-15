@@ -7,7 +7,7 @@ import {assets} from "../../assets/assets.js"
 // eslint-disable-next-line react/prop-types
 const Orders = () => {
 
-  const url = "http://localhost:8080";
+  const url = "https://food-del-backend-5oao.onrender.com";
 
   const [orders,setOrders] =useState([]);
 
