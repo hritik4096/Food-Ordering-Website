@@ -4,7 +4,7 @@ import "./Add.css"
 import { assets } from '../../assets/assets'
 import { toast } from 'react-toastify'
 const Add = () => {
-    const url ="http://localhost:8080"
+    const url ="https://food-del-backend-5oao.onrender.com"
 
     const [image,setImage] = useState(false);
     const [data,setData] = useState({
